@@ -1,0 +1,584 @@
+
+
+	  .swiper-container {
+		width: 100%;
+		height: 90%;
+	  }
+
+*{
+    margin: 0%;
+    padding: 0%;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+    background: rgb(241, 241, 241);
+} 
+ 
+header {
+	width: 100%;
+}
+ 
+header nav {
+	background:#ca1e11;
+	width:100%;
+
+}
+ 
+header nav ul {
+	list-style:none;
+}
+ 
+header nav ul li {
+	display:inline-block;
+	position: relative;
+}
+ 
+header nav ul li:hover {
+	background:rgb(219, 114, 15);
+}
+ 
+header nav ul li a {
+	color:#fff;
+	display:block;
+	text-decoration:none;
+	padding: 20px;
+}
+ 
+header nav ul li a span {
+	margin-right:10px;
+}
+ 
+header nav ul li:hover .children {
+	display:block;
+}
+ 
+header nav ul li .children {
+	display: none;
+	background:#ca1e11;
+	position: absolute;
+	width: 150%;
+	z-index:1000;
+}
+ 
+header nav ul li .children li {
+	display:block;
+	overflow: hidden;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+ 
+header nav ul li .children li a {
+	display: block;
+}
+ 
+header nav ul li .children li a span {
+	float: right;
+	position: relative;
+	top:3px;
+	margin-right:0;
+	margin-left:10px;
+}
+ 
+header nav ul li .caret {
+	position: relative;
+	top:3px;
+	margin-left:10px;
+	margin-right:0px;
+}
+ 
+.todo{
+    width: 90%;
+    background:rgb(253, 253, 253);
+    margin: 0 auto;
+
+}
+
+.ventas{
+    padding: 0%;
+    margin: 2%;
+    background-color: rgb(255, 253, 253);
+    display: inline-block;
+    border:solid 1px rgba(209, 209, 209, 0.637);
+    border-radius:5px;
+	position: relative;
+	
+}
+.ventas:hover{
+    border:solid 1px rgba(19, 19, 19, 0.61);
+    border-radius:5px;
+}
+.ventas .producto{
+padding:9px;
+font-size:12px;
+color: rgba(165, 165, 165, 0.938);
+}
+.ventas .producto:hover{
+	color: rgb(248, 141, 0);
+	}
+
+.nombre{
+padding:0px;
+font-size:15px;
+color: rgb(0, 0, 0);
+}
+
+.ventas .precio{
+    padding:9px;
+    font-size:20px;
+	color: rgb(248, 141, 0);
+    }
+
+.nombre:hover{
+    color: rgb(248, 141, 0);
+}
+
+.agregar-carrito {
+padding:9px;
+background-color: rgb(248, 141, 0) ;
+color: white;
+border-radius: 103px 102px 104px 102px;
+-moz-border-radius: 103px 102px 104px 102px;
+-webkit-border-radius: 103px 102px 104px 102px;
+width: 130px;
+}
+
+.agregar-carrito:hover {
+background-color: rgb(31, 31, 31) ;
+}
+
+
+.anuncio:hover{
+	filter: opacity(.5);
+	}
+.ventas .img:hover{
+filter: opacity(.5);
+}
+.ultima{
+	background: white;
+}
+
+.final{
+	background-color: rgb(238, 236, 236);
+}
+.linea{
+	border:1px dotted rgb(175, 174, 174);
+    width:100%;
+}
+.objeto{
+	width: 170px;
+	margin: 2%;
+	float:left;
+font-size: 13px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.mini{
+	float:left;
+}
+a{
+	text-decoration:none;
+}
+
+.mas {
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	text-decoration: none;
+	color: rgb(248, 141, 0);
+	}
+
+
+	.mas:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: -100%;
+	width: 100%;
+	height: 2px;
+	background: rgb(248, 141, 0);
+	transition: left .8s;
+	}
+
+	.mas:hover:after {
+	left: 0;
+	}
+	 .cuerpo{
+		color: rgba(165, 165, 165, 0.938);
+	 }
+	 .titulo{
+		color: rgba(0, 0, 0, 0.938);
+	 }
+.slidershwo3{
+	background: rgb(253, 253, 253);
+	padding: 0 AUTO;
+    margin: 0 auto;
+
+}
+.final_primero{
+	margin-left:14.5%;
+	width: 300px;
+	padding: auto;
+	font-family:sans-serif;
+	display: inline-block;
+}
+.finalparrafo{
+  color: #868686;
+  margin:1%;
+  padding: 1%;
+  font-size: 12px;
+}
+
+.pentaultimo:hover{
+    color: rgb(248, 141, 0);
+}
+.pentaultimo{
+ display: inline-block;
+}
+
+.titulo_1{
+	font-size: 14px;
+	display: inline-block;
+}
+.final_primero2{
+	margin:1%;
+	width: 250px;
+padding: auto;
+	font-family:sans-serif;
+	display: inline-block;
+
+}
+
+.social{
+	background: #ffffff;
+	color: rgb(88, 88, 88);
+	border: 1px solid rgb(150, 146, 146);
+	-moz-border-radius: 22px;
+	-webkit-border-radius:22px;
+	padding: 8px;
+	font-size: 12px;
+	display: inline-block;
+}
+
+.social:hover{
+	background:rgb(248, 141, 0);
+	color: rgb(255, 248, 248);
+}
+.sociala{
+	background: #ffffff;
+	color: rgb(88, 88, 88);
+	border: 1px solid rgb(150, 146, 146);
+	-moz-border-radius:  40px;
+	-webkit-border-radius: 40px;
+	padding:  11px;
+	font-size: 15px;
+	display: inline-block;
+}
+
+.sociala:hover{
+	background:rgb(54, 54, 53);
+	color: rgb(255, 248, 248);
+}
+.sociale{
+	background: rgb(248, 141, 0);
+	color: rgb(255, 248, 248);
+	border: 1px solid rgb(150, 146, 146);
+	-moz-border-radius:  40px;
+	-webkit-border-radius: 40px;
+	padding:  11px;
+	font-size: 15px;
+	display: inline-block;
+}
+
+
+
+.final_primero3{
+	margin:1%;
+	width: 150px;
+padding: auto;
+	font-family:sans-serif;
+	display: inline-block;
+	
+
+   
+}
+.numero{
+	color: black;
+	display: inline-block;
+}
+.finalCuentas{
+	color: #868686;
+	margin:0.5%;
+	padding: 0.5%;
+	font-size: 13px;
+}
+
+.registro:hover{
+color: rgb(248, 141, 0);
+}
+.registro{
+	color: #868686;
+	text-decoration: none;
+	padding: 0.5%;
+}
+.ultimoparrafo{
+	margin-left: 6%;
+	display: inline-block;
+}
+.finalverdadero{
+	background: white;
+}
+.credito{
+	display:inline-block;
+	margin: 5%;
+	padding: 5%;
+}
+.parafito{
+	margin-left:890px;
+	display:inline-block;
+}
+
+.arriba{
+margin-left: 5%;
+	display: inline-block;
+}
+.numerode{
+	float: right;
+		font-size: 18px;
+		margin-top: 3.5%;
+	}
+
+h1{
+   font-size: 35px;
+   display: inline-block;
+  float: right;
+  margin-top:3.5% ;
+margin-right: 0.5%;
+color:rgb(248, 141, 0) ;
+}
+
+
+
+.encierre{
+	float: left;
+	margin: 20px;
+}
+.numero5{
+float: left;
+
+margin-right: 25px;
+}
+.numero6{
+display: inline-block;
+
+	}
+	.lineavertical{
+		border:1px dotted rgb(175, 174, 174);
+		height: 50px;
+		width: 3px;
+		margin: 3%;
+		float: right;
+	}
+
+i{
+	color:rgb(248, 141, 0) ;
+}
+
+kbd{
+	color: rgba(165, 165, 165, 0.938);
+	margin: 3px;
+}
+.redes{
+float: right;
+margin-right: 150px;
+}
+
+.botones{
+	color: #868686;
+	margin-left: 5%;
+}
+.botones:hover{
+	color: rgb(248, 141, 0);
+	}
+
+	a{
+		text-decoration: none;
+	}
+
+	.nombres{
+color: rgb(0, 0, 0);
+	}
+
+	.nombres:hover{
+		color: rgb(248, 141, 0);
+	}
+	.al_lado{
+		float: left;
+	}
+	.orange{
+		background: rgb(248, 141, 0);
+        margin-left: 2%;
+		width: 320px;
+		height: 50px;
+		font-family: Arial;
+		color: white;
+	}
+.cajita{
+	margin: 10%;
+	margin-top: 15%;
+}
+
+.populares{
+background: white;
+border:solid 1px rgba(209, 209, 209, 0.637);
+border-radius:5px;
+width: 320px;
+margin-left: 2%;
+}
+
+.maspopulares{
+	margin: 4%;
+	display: inline-block;
+	border:solid 1px rgba(209, 209, 209, 0.637);
+border-radius:6px;
+}
+.nombremaspopular{
+	color:#868686 ;
+	display: inline-block;
+	margin-top: 7%;
+}
+.uh{
+	display: inline-block;
+ float: right;
+ margin-top: 2%;
+ margin-right: 13%;
+}
+
+.lineapopular{
+	border:1px dotted rgb(209, 209, 209);
+	width:85%; 
+	margin-left:7% ;
+}
+.uhc{
+	display: inline-block;
+	float: right;
+	margin-top: 2%;
+	margin-right: 18%;
+}
+.uha{
+	display: inline-block;
+	float: right;
+	margin-top: 2%;
+	margin-right: 15%;
+}
+.uhd{
+	display: inline-block;
+	float: right;
+	margin-top: 7%;
+	margin-right: 6%;
+}
+.uhp{
+	display: inline-block;
+	float: right;
+	margin-top: 2%;
+	margin-right: 16%;
+}
+.uhh{
+	display: inline-block;
+	float: right;
+	margin-top: 7%;
+	margin-right: 30%;
+}
+.nombremaspopular:hover{
+	color:rgb(248, 141, 0) ;
+}
+.uhl{
+	display: inline-block;
+	float: right;
+	margin-top: 2%;
+	margin-right: 21%;
+}
+.ventapro{
+margin-left: 25%;
+background-color: rgb(253, 253, 253);
+position: absolute;
+margin-top: 1%;
+
+}
+.letras{
+	font-size: 28px;
+display: inline-block;
+margin-left: 25%;
+}
+.imagenalaventa:hover{
+	filter: opacity(.5);
+    border:solid 1px rgba(19, 19, 19, 0.61);
+	border-radius:5px;
+}
+.otros{
+	margin-left: 25%;
+background-color: rgb(253, 253, 253);
+position: absolute;
+margin-top: 1%;
+width: 65%;
+}
+.linea6{
+	border:1px dotted rgb(209, 209, 209);
+	width:45%; 
+	margin-left:23% ;
+	display: inline-block;
+}
+.precio5{
+	color: rgb(248, 141, 0) ;
+	font-size: 25px;
+	display: inline-block;
+	margin-left: 25%;
+}
+.estrellas{
+	margin-right: 5%;
+	float: right;
+	display: inline-block;
+	margin-top:  2%;
+}
+label {
+	display: inline-block;
+	padding: 0;
+	cursor: pointer;
+	vertical-align: middle;
+	
+  }
+  
+  label.reset {
+	font-size: 10px;
+
+	margin: 10px 5px;
+	padding: 2px 3px;
+  }
+  
+  label.star {
+	width: 30px;
+	height: 27px;
+  }
+  
+  
+  /* ocultamos los radiobuttons */
+  
+  input[name=rating] {
+	display: none;
+  }
+  
+  
+  /* estrellas inmediatamente despues de un radiobutton van amarillas */
+  
+  input[type=radio]+label.star svg path {
+	fill: rgb(248, 141, 0)
+  }
+  
+  
+  /* estrellas a la derecha del radiobutton checked van blanco */
+  
+  input[type=radio]:checked~label.star svg path {
+	fill: rgba(209, 209, 209, 0.637);
+  }
+
+  
